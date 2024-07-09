@@ -1,0 +1,237 @@
+.main .banner_img {
+    background-image: url('images/TideCleaners_bg_image.webp');   
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.main .banner_img .text{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    color: rgb(0,36,156);
+}
+
+.main h2 {
+    font-size: 300%;
+}
+
+.main h6 {
+    font-size: 150%;
+}
+
+.main .banner_img .text a {
+    background-color: rgb(0,36,156);
+    color: white;
+    display: inline-block;
+    padding:8px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    align-content: center;
+    margin:20px 0 0 30% ;
+}  
+
+.services p:first-child {
+    font-family: Font-book, Arial, Helvetica, sans-serif;
+    background-color:  rgb(0,36,156);
+    color: white;
+    font-size: 1.5em;
+    /* font-weight: lighter; */
+    line-height: 1.3;
+    text-align: center;
+    padding:10px 0 5px 0;
+}
+
+.services .services_images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.services .services_images a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0,36,156);
+    margin: 10px 10px 20px 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.services .services_images a:hover {
+    color: rgb(249,86,22);
+}
+
+#wash_and_fold, #shirt, #dry_cleaning, #outerwear, #beddings, #shoes {
+    transition: background-image 0.1s ease-in;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin:5px 15px;
+}
+
+#wash_and_fold {
+    background-image: url('images/TC_150x150_homepage_blue_wash_fold_icon\ \(1\).webp');
+
+}
+#wash_and_fold:hover {
+    background-image: url('images/TC_150x150_homepage_orange_wash_fold_icon.webp');
+}
+
+#shirt {
+    background-image: url('images/TC_150x150_homepage_blue_wash_fold_icon\ \(1\).webp');  
+}
+
+#shirt:hover {
+ background-image: url('images/TC_150x150_homepage_orange_wash_fold_icon.webp');
+}
+
+#dry_cleaning {
+    background-image: url('images/TC_150x150_homepage_blue_dry_clearning_icon.webp');
+}
+#dry_cleaning:hover {
+    background-image: url('images/TC_150x150_homepage_orange_dry_clearning_icon.webp');
+}
+
+#outerwear {
+    background-image: url('images/TC_150x150_homepage_blue_outerwear_icon.webp');
+}
+
+#outerwear:hover {
+    background-image: url('images/TC_150x150_homepage_orange_outerwear_icon.webp');
+}
+
+#beddings {
+    background-image: url('images/TC_150x150_homepage_blue_bedding_household_icon.webp');
+}
+
+#beddings:hover {
+    background-image: url('images/TC_150x150_homepage_orange_bedding_icon.webp');
+}
+
+#shoes {
+    background-image: url('images/TC_150x150_homepage_blue_shoe_icon.webp');
+}
+
+#shoes:hover {
+    background-image: url('images/TC_150x150_homepage_orange_shoe_icon.webp');
+}
+
+/* CATEGORIES STYLES */
+.categories h2 {
+    text-align: center;
+    color: rgb(0,36,156);
+    margin: 20px 0;
+    font-weight: light;
+    font-size: 35px;
+
+}
+
+/* CATEGORIES CARDS STYLES */
+
+.card {
+    box-shadow: rgb(139, 138, 138, 0.5) 2px 2px 9px;
+    margin:10px 0 40px 0;
+}
+
+.card:hover {
+   background-color: rgb(231, 165, 139);
+   box-shadow: rgb(249,86,22) 2px 2px 9px;
+}
+
+.card-img {
+    height: 250px;
+}
+
+.card p {
+    text-align: center;
+    font-weight: 600;
+    color:  rgb(0,36,156);
+    margin: 30px 0 0 0;
+}
+
+.card_icon { 
+    position: relative;
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+}
+
+.card_icon img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    object-position: center center;
+    bottom: -15px;
+}
+
+/* FIND US STYLES */
+.find_us {
+    background-color:  rgb(0,36,156);
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    margin:10px 0 30px 0;
+}
+.find_us h2 {
+    margin-bottom: 30px;
+}
+
+.find_us a {
+    display: inline-block;
+    background-color: rgb(249,86,22);
+    color: white;
+    border-radius: 25px;
+    padding: 10px 50px;
+    margin-bottom: 20px;
+    /* width: 25%; */
+}
+
+.find_us a:hover {
+    color: white;
+    background-color: rgb(249, 22, 22);
+}
+
+/* REVIEWS STYLES */
+
+.reviews {
+    text-align: center;
+    color: rgb(0,36,156);
+    /* padding: 20px 0 0 0; */
+    
+}
+
+.reviews h2 {
+    font-size: large;
+    font-weight: bold;
+}
+
+.carousel-indicators button {
+    height: auto !important;
+    width: 20px !important;
+    /* margin: 0 10px !important; */
+    border-radius: 50% !important;
+    background: #1963ac !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    /* margin-right: 3px;
+    margin-left: 3px; */
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}

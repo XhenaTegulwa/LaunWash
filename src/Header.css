@@ -1,0 +1,32 @@
+.Header {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+
+.Header .upperHeader {
+    background-color: rgb(249,86,22);
+    height: 80px;    
+}
+
+.searchBox input {
+    outline: none;
+    border-radius: 5px;
+    padding: 2%;
+    border-color: rgb(249,86,22);
+}
+
+.Header .lowerHeader {
+    background-color: rgb(0,36,156);
+}
+
+.navBar {
+    margin: 0 auto;
+}
+
+.navItem {
+    color: white;
+    font-size: 16px;
+    margin:0 10px;
+    font-weight: 500;
+}

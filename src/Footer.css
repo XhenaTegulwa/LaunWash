@@ -1,0 +1,68 @@
+footer {
+    background-color: rgb(0,36,156);
+    color: white;
+    padding: 50px 100px 10px 100px;
+    margin: 0 auto;
+
+}
+
+footer .footer_sec {
+    margin: 0 auto;
+
+}
+
+footer .footer_sec h2 {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+footer .footer_sec .logo {
+    padding: 20px 0;
+}
+.footer_sec .download {
+    display: inline-block ;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.footer_sec .download h2 {
+    text-align: center;
+    /* font-weight: 500; */
+    /* font-size: large; */
+}
+.footer_sec .download img {
+    width: 90px;
+    height: 70px;
+    margin-left: 3px;
+}
+
+footer .footer_sec ul li {
+    padding: 5px 25px;
+    font-size: medium;
+    /* color: white; */
+}
+
+footer .footer_sec a {
+    color: white;
+}
+
+footer .footer_sec a:hover {
+    color: rgba(255, 255, 255, 0.482);
+}
+
+footer .footer_sec p {
+    text-align: center;
+    /* font-size: small; */
+    font-weight: light;
+    color: rgba(255, 255, 255, 0.482);
+}
+
+footer .footer_sec #socials ul li{
+    font-size: small;
+    font-style: italic;
+}
+
+footer .fa-brands {
+    color: white;
+}
