@@ -2,6 +2,7 @@ import "./HomePage.css"
 import campus from "./images/American_Airlines_Interior.webp"
 import orangeCircleArrow from "./images/orange_circle_arrow_copy-5_2x.webp"
 import React, {Component} from "react";
+// import WashFold from "./Our_Services/wash-fold";
 
 class HomePage extends Component {
     render(){
