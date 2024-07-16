@@ -1,0 +1,102 @@
+.wash-fold {
+    /* background-color: aqua; */
+    position: relative;
+    padding-top: 10%;
+    /* z-index: -3; */
+}
+
+.wash-fold .banner_img {
+    background-image: url('../images/TideCleaners_bg_image.webp');   
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.wash-fold .banner_img .text{
+    color: white;
+    text-align: center;
+    padding-top: 18%;
+   
+}
+
+.wash-fold .banner_img .text h1 {
+    font-weight: bolder;
+}
+
+.description {background-color: white;
+    color: rgb(0,36,156);
+    height: 20%;
+    padding: 30px 70px;
+    text-align: center;
+}
+
+.wash-fold h2 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+.wash-fold p {
+    font-family: 30px;
+    margin-top: 20px;
+}
+
+.find-agent {
+    background-color: rgb(0,36,156);
+    text-align: center;
+    color: white;
+    padding: 30px 70px;
+
+}
+.find-agent a {
+    background-color: rgb(249,86,22);
+    color: white;
+    /* display: inline-block; */
+    padding:8px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    align-content: center;
+    margin: 40px 0;
+} 
+
+.what-is {
+    background-color: white;
+    padding: 30px 70px;
+    color:  rgb(0,36,156);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.what-is .whatis-description {
+    padding-top: 12%;
+}
+
+.how-it-works {
+    background-color: white;
+    color: rgb(0,36,156);
+    /* text-align: center; */
+}
+
+.how-it-works h3 {
+    text-align: center;
+}
+.steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.step {
+    border-left: 1px solid rgb(0,36,156);
+    padding: 10px;
+}
+
+.steps .step img {
+    width: 100px;
+    height: 100px;
+}
+.steps .step p {
+    font-size: smaller;
+}
+
