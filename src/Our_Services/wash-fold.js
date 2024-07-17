@@ -31,7 +31,7 @@ class WashFold extends Component {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, laborum molestiae! Aspernatur voluptate officia doloribus ea eveniet, quasi, perspiciatis, explicabo aliquam asperiores quas sed error? Obcaecati eaque earum ipsa cumque.</p>
                     </div>                    
                 </div>
-                <div className="how-it-works">
+                <div className="how-it-works container">
                     <h2 className="mb-3">How our wash and fold laundry service works</h2>
                     <div className="steps">
                         <div className="step">
@@ -39,12 +39,12 @@ class WashFold extends Component {
                             <img src={wash$fold} alt="" />
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit veniam aspernatur magni consequatur harum qui porro praesentium? Doloremque commodi ad corporis quidem reprehenderit quis ullam nesciunt quas inventore, libero tempora.</p>
                         </div>
-                        <div className="step">
+                        <div className="step steps-bordered">
                             <h3>Step 1</h3>
                             <img src={wash$fold} alt="" />
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit veniam aspernatur magni consequatur harum qui porro praesentium? Doloremque commodi ad corporis quidem reprehenderit quis ullam nesciunt quas inventore, libero tempora.</p>
                         </div>
-                        <div className="step">
+                        <div className="step steps-bordered">
                             <h3>Step 1</h3>
                             <img src={wash$fold} alt="" />
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit veniam aspernatur magni consequatur harum qui porro praesentium? Doloremque commodi ad corporis quidem reprehenderit quis ullam nesciunt quas inventore, libero tempora.</p>
